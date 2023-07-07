@@ -1,5 +1,4 @@
-x=input()
-x=x.split()
+x=input().split()
 l=[]
 for i in x:
     l.append(i)
