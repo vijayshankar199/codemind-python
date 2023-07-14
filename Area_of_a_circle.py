@@ -1,2 +1,3 @@
-r=int(input())
-print('{:.2f}'.format(3.14*r*r))
+x=float(input())
+k=3.14*x*x
+print("%.2f" %k)
