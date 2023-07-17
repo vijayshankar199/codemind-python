@@ -1,17 +1,17 @@
-n1=int(input())
-n2=int(input())
-s=n1+n2
-k=s
 def prime(n):
-    for i in range(2,(n//2)+1):
+    for i in range(2,int((n**0.5)+1)):
         if n%i==0:
             return False
     else:
         return True
+x=int(input())
+y=int(input())
+s=x+y
+k=s
 m=s+1
 while m>0:
     if prime(m)==True:
         break
-    else:    
+    else:
         m=m+1
 print(abs(k-m))
